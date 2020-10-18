@@ -1,0 +1,21 @@
+body {
+background-color: lightblue;
+}
+h1 {
+color: navy;
+margin-left: 20px;
+}
+.testClass {
+color: red;
+font-size: 330%;
+}
+
+.regular {
+color:purple;
+font-size:530%;
+}
+
+#output1 {
+color:orange;
+font-size:530%;
+}

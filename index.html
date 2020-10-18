@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Do Math css</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript">
+
+function doMath() {
+
+var x = 10;
+var y = 2;
+var z = 4;
+
+var answer = x * y / z;
+
+document.getElementById("output1").innerHTML = "Result is " + answer;
+}
+</script>
+
+
+
+</head>
+
+<body>
+<h1>Do Math</h1>
+
+<button onclick="doMath();">Do the Math!</button>
+
+<p id="output1"></p>
+<p class="regular">This is a test for regular</p>
+<p class="testClass">This is a test for TestClass</p>
+
+</body>
+
+</html>
