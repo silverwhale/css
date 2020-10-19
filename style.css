@@ -38,8 +38,10 @@ a {
 	float: right;
 }
 
+
+}
+
 table {
-	background-color: lightblue;
 	width: 800px;
 	padding: 0px;
 	margin-left: -10px;
@@ -53,14 +55,23 @@ td {
 	border-color: yellow;
 }
 
-img
-  {
+img  {
 	width: 100%;
 	object-fit: contain;
 	padding: 0px;
 	margin: 0px;
-
   }
+
+#logo {
+	height: 100px;	
+	object-position: left;
+}	
+
+#logot {
+	text-align: left;
+	object-position: left;
+
+}
 
 #footer {
 	clear: both;
