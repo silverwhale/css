@@ -11,6 +11,7 @@ a {
 	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+	
 }
 
 #nav .selected {
@@ -39,38 +40,29 @@ a {
 }
 
 
-}
-
 table {
+	background-color: white;
 	width: 800px;
-	padding: 0px;
-	margin-left: -10px;
-	border: 1px;
+	padding: 1px;
+	border: 3px;
 	border-style: dashed;
 	border-color: purple;
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
-td {
-	border: 1px;
-	border-style: dashed;
-	border-color: yellow;
-}
+
 
 img  {
 	width: 100%;
-	object-fit: contain;
 	padding: 0px;
 	margin: 0px;
   }
 
 #logo {
-	height: 100px;	
-	object-position: left;
-}	
-
-#logot {
-	text-align: left;
-	object-position: left;
-
+	height: 100px;
+	object-fit: contain;
 }
 
 #footer {
@@ -79,5 +71,5 @@ img  {
 	background-color: gray;
 	color: white;
 	text-align: right;
-	margin-top: -9px;
+	
 }
