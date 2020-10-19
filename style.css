@@ -38,10 +38,35 @@ a {
 	float: right;
 }
 
+table {
+	background-color: lightblue;
+	width: 800px;
+	padding: 0px;
+	margin-left: -10px;
+	border: 1px;
+	border-style: dashed;
+	border-color: purple;
+}
+td {
+	border: 1px;
+	border-style: dashed;
+	border-color: yellow;
+}
+
+img
+  {
+	width: 100%;
+	object-fit: contain;
+	padding: 0px;
+	margin: 0px;
+
+  }
+
 #footer {
 	clear: both;
 	padding: 10px;
 	background-color: gray;
 	color: white;
 	text-align: right;
+	margin-top: -9px;
 }
